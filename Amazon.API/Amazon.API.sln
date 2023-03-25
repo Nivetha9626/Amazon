@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.API", "Amazon.API\Amazon.API.csproj", "{DF087E20-8927-46A6-89E8-0252E038D07F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.API", "Amazon.API\Amazon.API.csproj", "{DF087E20-8927-46A6-89E8-0252E038D07F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Core", "Amazon.Core\Amazon.Core.csproj", "{A5A1D6BE-BDF4-4970-9E7A-10168580EBB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Dto", "Amazon.Dto\Amazon.Dto.csproj", "{FDE93B4E-487D-4940-96CD-AE62FB95B83E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Model", "Amazon.Model\Amazon.Model.csproj", "{98331B8B-5F21-4A13-82BE-CC07F59E40D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Infrastructure", "Amazon.Infrastructure\Amazon.Infrastructure.csproj", "{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Service", "Amazon.Service\Amazon.Service.csproj", "{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.Interface", "Amazon.Interface\Amazon.Interface.csproj", "{4728BAB9-A519-4B12-BD30-CEC664503578}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{DF087E20-8927-46A6-89E8-0252E038D07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF087E20-8927-46A6-89E8-0252E038D07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF087E20-8927-46A6-89E8-0252E038D07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A1D6BE-BDF4-4970-9E7A-10168580EBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A1D6BE-BDF4-4970-9E7A-10168580EBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A1D6BE-BDF4-4970-9E7A-10168580EBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A1D6BE-BDF4-4970-9E7A-10168580EBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE93B4E-487D-4940-96CD-AE62FB95B83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE93B4E-487D-4940-96CD-AE62FB95B83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE93B4E-487D-4940-96CD-AE62FB95B83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE93B4E-487D-4940-96CD-AE62FB95B83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98331B8B-5F21-4A13-82BE-CC07F59E40D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98331B8B-5F21-4A13-82BE-CC07F59E40D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98331B8B-5F21-4A13-82BE-CC07F59E40D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98331B8B-5F21-4A13-82BE-CC07F59E40D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4728BAB9-A519-4B12-BD30-CEC664503578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4728BAB9-A519-4B12-BD30-CEC664503578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4728BAB9-A519-4B12-BD30-CEC664503578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4728BAB9-A519-4B12-BD30-CEC664503578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
