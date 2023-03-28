@@ -1,8 +1,7 @@
-﻿
-using Amazon.Dto;
+﻿using Amazon.Dto;
 using System.Collections.Generic;
 
-namespace Amazon.Interface
+namespace Amazon.Model.Interface
 {
     public interface IProductService
     {

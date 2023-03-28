@@ -6,6 +6,7 @@ namespace Amazon.Infrastructure
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
+
         }
     }
 }

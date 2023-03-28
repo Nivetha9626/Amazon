@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Amazon.Interface\Amazon.Interface.csproj" />
+    <ProjectReference Include="..\Amazon.Model\Amazon.Model.csproj" />
   </ItemGroup>
 
 </Project>

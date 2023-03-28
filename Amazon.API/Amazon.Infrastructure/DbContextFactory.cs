@@ -1,8 +1,8 @@
-﻿using Amazon.Interface;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Amazon.Infrastructure
 {
+    //it create object for us. we dont need to create it
     public class DbContextFactory : IApplicationDbContextFactory
     {
         private readonly string _connectionString;

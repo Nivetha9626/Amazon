@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Amazon.Model.Entity;
 
 namespace Amazon.Interface
 {
