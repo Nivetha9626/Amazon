@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Model", "Amazon.Mode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Infrastructure", "Amazon.Infrastructure\Amazon.Infrastructure.csproj", "{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Service", "Amazon.Service\Amazon.Service.csproj", "{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1146CCAC-6BE1-4B31-A2E5-F8A895B5AF84}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C19F6B2-0A9C-4A27-953A-6C1F92093CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
